@@ -40,8 +40,10 @@ int main()
 		{
 			cout << baris << '\n';
 		}
+		infile.close();
 	}
 
-	infile.close();
+	else cout << "enable to open file ";
 
+	return 0;
 }
