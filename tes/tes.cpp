@@ -14,6 +14,17 @@ int main()
 
 	outfile.open("contohfile.txt");
 
+	cout << ">= menulis file, \'q\' untuk keluar " << endl;
+
+	while (true) {
+		cout << "-";
+		getline(cin, baris);
+
+
+	}
+
+	outfile.close();
+
 
 
 }
