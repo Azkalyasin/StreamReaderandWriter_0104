@@ -18,4 +18,18 @@ int main()
 	outfile.open(nama_file + ".txt", ios::out);
 
 
+	cout << ">= menulis file, \'q\' untuk keluar " << endl;
+
+	while (true) {
+		cout << "- ";
+		getline(cin, baris);
+
+		if (baris == "q") break;
+
+		outfile << baris << endl;
+	}
+
+
+
+
 }
