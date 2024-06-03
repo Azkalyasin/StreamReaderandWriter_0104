@@ -10,4 +10,10 @@ int main()
 	string baris;
 
 
+	cout << "masukkan nama file : ";
+	cin >> nama_file;
+
+
+
+
 }
