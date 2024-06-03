@@ -13,7 +13,9 @@ int main()
 	cout << "masukkan nama file : ";
 	cin >> nama_file;
 
+	ofstream outfile;
 
+	outfile.open(nama_file + ".txt", ios::out);
 
 
 }
