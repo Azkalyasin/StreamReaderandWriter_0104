@@ -17,7 +17,7 @@ int main()
 	cout << ">= menulis file, \'q\' untuk keluar " << endl;
 
 	while (true) {
-		cout << "-";
+		cout << "- ";
 		getline(cin, baris);
 
 		if (baris == "q") break;
@@ -26,6 +26,13 @@ int main()
 	}
 
 	outfile.close();
+
+
+	ifstream infile;
+
+	infile.open("contohfile.txt");
+
+	cout << endl << ">= membuka dan membaca file " << endl;
 
 
 
